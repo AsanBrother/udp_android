@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_day"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/settingback"
+         android:orientation="vertical"
+        >
+     
+      
+            <LinearLayout 
+                style="@style/leba_bg_layout">                    
+             
+                <LinearLayout 
+                    style="@style/leba_bg_top_layout">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="本机IP" />
+                    <EditText android:id="@+id/localip"
+                        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"  android:background="@drawable/edittext1" android:layout_marginLeft="35dp" android:layout_marginRight="12dp"
+                        android:hint="172.26.88.3"/>
+                </LinearLayout>
+                
+                <View android:background="@drawable/leba_shape_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                
+           
+                <LinearLayout 
+                    style="@style/leba_bg_bottom_layout">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="本机PORT" />
+                  <EditText android:id="@+id/localport" 
+                      android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"  android:background="@drawable/edittext1" android:layout_marginLeft="12dp" android:layout_marginRight="12dp"
+                       android:hint="8888"/>
+                </LinearLayout>                             
+            </LinearLayout>
+            
+               <LinearLayout 
+                style="@style/leba_bg_layout">                    
+             
+                <LinearLayout 
+                    style="@style/leba_bg_top_layout">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="远程IP" />
+                    <EditText android:id="@+id/remoteip"
+                        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"  android:background="@drawable/edittext1" android:layout_marginLeft="36dp" android:layout_marginRight="12dp"
+                           android:hint="172.26.88.2"/>
+                </LinearLayout>
+                
+                <View android:background="@drawable/leba_shape_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                
+           
+                <LinearLayout 
+                    style="@style/leba_bg_bottom_layout">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="远程PORT" />
+                  <EditText 
+                      android:id="@+id/remoteport" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"  android:background="@drawable/edittext1" android:layout_marginLeft="12dp" android:layout_marginRight="12dp"
+                         android:hint="10000"/>
+                </LinearLayout>                             
+            </LinearLayout>
+            
+   
+        
+    </LinearLayout>
+ 
+
+</LinearLayout>
