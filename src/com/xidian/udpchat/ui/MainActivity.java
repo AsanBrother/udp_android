@@ -28,7 +28,9 @@ import com.xidian.udpchat.ui.fragment.SettingFragment;
 
 /**
  * 主界面
+ *  Created by asan
  */
+ 
 public class MainActivity extends ActionBarActivity {
 
 	/**
